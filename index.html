@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pacman</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="game-shell">
+    <header>
+      <h1>Pacman</h1>
+      <div class="hud">
+        <div>
+          <strong>Score</strong>
+          <span class="score" id="score">0</span>
+        </div>
+        <div>
+          <strong>Lives</strong>
+          <span class="lives" id="lives">3</span>
+        </div>
+        <div>
+          <strong>Status</strong>
+          <span class="status" id="status">Use arrow keys to move.</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="canvas-wrap">
+      <canvas id="gameCanvas"></canvas>
+    </div>
+
+    <footer>
+      <p>Collect all pellets and avoid ghosts. Press <strong>R</strong> to restart.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
